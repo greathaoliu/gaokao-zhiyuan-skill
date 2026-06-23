@@ -2,18 +2,15 @@
 
 ## Intake Template
 
-Ask only what is needed for the next step. For real current applications, default to 2026 and tell the user that incomplete information leads only to interim analysis, not a final plan.
+Ask only what is needed for the next step. For real current applications, default to 2026 and tell the user that incomplete information leads only to interim analysis, not a final plan. Default to one primary question per turn.
 
 ```text
 我会按 2026 年真实填报来引导。信息没问清前，我只给阶段性分析，不给最终志愿方案。
-第一步先补齐这些：
-1. 考生省份：
-2. 类别/批次：普通类本科、提前批、艺术/体育、专科等
-3. 选科/科类：
-4. 高考分数、全省位次：
-5. 学生最想学和最不想学的专业：
-6. 家长最看重：学校层次、专业就业、城市距离、费用、稳定性里的哪几项？
+我会一步一步问，不会一上来让你填一大张表。
+先问第一个关键问题：你是哪个省份的考生？
 ```
+
+After the province is answered, ask the next single question in order: category/batch, selected subjects, score and rank, hard constraints, student preference, parent preference, risk tolerance. Only provide the full list when the user asks for "一次性发问卷" or "给我完整清单".
 
 Do not ask the user for public official lines in the first intake. After province/year/category are known, look up batch lines, special control lines, section lines, and一分一段 from official provincial sources. Ask the user for these only when official data is unavailable or the user has a specific official document that cannot be reached online.
 
@@ -53,6 +50,6 @@ When preferences conflict, force a tradeoff instead of pretending all goals can 
 - 要城市和就业资源，可能牺牲学校排名。
 - 要低风险，志愿梯度要更保守。
 
-End with 3-5 concrete next actions, such as "补齐位次", "下载本省招生计划", "逐项读招生章程", "给招生办确认体检限制".
+End with the single next action or question unless the user asks for a checklist. Examples: "下一步我需要知道你的选科组合", "下一步我来查本省批次线和志愿规则", "下一步请告诉我能否接受中外合作".
 
 When key information is missing, end with targeted follow-up questions instead of a final recommendation. Explain what the next answer will unlock, such as "拿到位次后才能划分冲稳保" or "确定是否接受中外合作后才能筛掉高收费项目".

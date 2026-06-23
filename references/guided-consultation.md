@@ -16,7 +16,27 @@ State the process clearly:
 
 ## Staged Intake
 
-Do not dump every question at once unless the user asks for a full questionnaire. Ask in stages and keep moving.
+Do not dump every question at once unless the user asks for a full questionnaire. Default to a micro-consultation style: ask one primary question per turn, then use the answer to decide the next question. Bundle only tightly coupled fields that the user naturally knows together, such as score and rank.
+
+## One-Question Rule
+
+Default behavior:
+
+- Ask exactly one primary question at the end of each response.
+- If a field is public official data, look it up instead of asking the user.
+- If multiple private fields are missing, ask the one that unlocks the largest next step.
+- If the user seems comfortable and asks for a checklist, provide a compact full questionnaire.
+- Keep each question in plain language, with examples only when they reduce confusion.
+
+Good micro-questions:
+
+- `你是哪个省份的考生？`
+- `你是普通类本科批，还是提前批/艺术体育/专科这类批次？`
+- `你的选科组合是什么？比如物化生、物化地、史政地。`
+- `你的高考分数和全省位次是多少？这两个可以一起发。`
+- `学生最不想被录到的专业是什么？先说 1-3 个就行。`
+
+Avoid first-turn questionnaire blocks unless explicitly requested.
 
 ### Stage 1: Rule And Score Gate
 
@@ -96,7 +116,7 @@ If any item is missing, say:
 下一步请补充：...
 ```
 
-Then ask the next 1-5 most important questions. Continue this loop until the readiness gate is satisfied.
+Then ask the single next most important question by default. Continue this loop until the readiness gate is satisfied.
 
 ## Allowed Interim Outputs
 
