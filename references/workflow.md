@@ -10,10 +10,12 @@ Ask only what is needed for the next step. For real current applications, defaul
 1. 考生省份：
 2. 类别/批次：普通类本科、提前批、艺术/体育、专科等
 3. 选科/科类：
-4. 高考分数、全省位次、批次线：
+4. 高考分数、全省位次：
 5. 学生最想学和最不想学的专业：
 6. 家长最看重：学校层次、专业就业、城市距离、费用、稳定性里的哪几项？
 ```
+
+Do not ask the user for public official lines in the first intake. After province/year/category are known, look up batch lines, special control lines, section lines, and一分一段 from official provincial sources. Ask the user for these only when official data is unavailable or the user has a specific official document that cannot be reached online.
 
 If the user is anxious or truly zero-based, first explain the process in three layers:
 

@@ -41,7 +41,7 @@ For each candidate:
 
 - Province, year, subject category or selected subjects.
 - Score and province rank/位次.
-- Relevant batch line and special control line.
+- Relevant batch line, special control line, section line, and一分一段/rank context from official sources; the assistant should look these up after province/year/category are known.
 - Hard constraints: region, budget, public/private, Sino-foreign/co-op, campus, medical limits, language, family constraints.
 - Preference weights: school, major, city, employment, postgraduate path, cost, risk tolerance.
 
@@ -71,6 +71,7 @@ Prefer 位次 over score:
 
 Before final recommendations, verify:
 
+- Official target-year batch lines, special control lines, section lines, and一分一段/rank data for the candidate's province/category.
 - The province's target-year application policy and deadline.
 - The target-year 招生计划 and codes.
 - The target-year 招生章程 or archived equivalent.

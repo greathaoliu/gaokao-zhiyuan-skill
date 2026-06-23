@@ -26,9 +26,17 @@ Required:
 - 2026 confirmation, or another explicit year.
 - Candidate category/batch: ordinary, art, sports, spring Gaokao, early batch, undergraduate regular batch,专科, etc.
 - Subject track or selected subjects.
-- Score, province rank/位次, and relevant lines if available.
+- Score and province rank/位次 if available.
 
 If any item is missing, ask for it before ranking schools or majors.
+
+The assistant must look up public official data itself after province/year/category are known:
+
+- Relevant batch lines, special control lines, section lines, or eligibility lines.
+- 一分一段表 and rank interpretation materials.
+- Province/batch volunteer model, volunteer count, and filing rules.
+
+Do not ask the candidate to provide batch lines or一分一段 data unless official data is not yet published, cannot be accessed, or the user has a local official PDF/screenshot that is needed to resolve ambiguity.
 
 ### Stage 2: Hard Constraint Gate
 
@@ -59,6 +67,7 @@ If disagreement is unresolved, present 2-3 strategies and ask the family to choo
 Required:
 
 - Official 2026 provincial rules for the province/batch.
+- Official 2026 relevant batch lines, special control lines, and一分一段/rank data.
 - Official 2026 plan and codes for target options.
 - Current or target-year招生章程-sensitive fields.
 - Prior-year admission rank data suitable for the same province/category/volunteer unit.
@@ -69,7 +78,8 @@ If official evidence is unavailable, label all output as `研究草案` or `待�
 
 Do not provide a `最终方案`, `最终志愿表`, `可提交顺序`, or complete ranked table unless all are true:
 
-- Province, year 2026, category/batch, selected subjects, score, rank, and lines are known.
+- Province, year 2026, category/batch, selected subjects, score, and rank are known.
+- Relevant batch lines, special control lines, and一分一段/rank context have been looked up from official sources or clearly marked unavailable.
 - The 2026 province/batch volunteer model and count have been verified from official sources.
 - Hard constraints and unacceptable options are known.
 - Student and parent priorities are known or explicitly waived.
