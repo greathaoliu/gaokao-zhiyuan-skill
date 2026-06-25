@@ -1,7 +1,7 @@
 interface:
   display_name: "高考志愿零基础"
   short_description: "面向新手的高考志愿填报决策流程"
-  default_prompt: "Use $gaokao-application-beginner to help me build a beginner-friendly Gaokao college application plan."
+  default_prompt: "Use $gaokao-zhiyuan-skill to guide a student and parents through a 2026 Gaokao志愿填报 consultation."
 
 policy:
   allow_implicit_invocation: true

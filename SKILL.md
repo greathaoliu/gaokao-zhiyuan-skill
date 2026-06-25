@@ -1,9 +1,9 @@
 ---
-name: gaokao-application-beginner
+name: gaokao-zhiyuan-skill
 description: Beginner-friendly Gaokao college application and major selection guidance for China. Use when the user asks in Chinese or English about 高考报志愿, 志愿填报, 2026高考志愿, 平行志愿, 院校专业组, 专业(类)+学校, 专业优先/院校优先, 冲稳保, 位次法, 一分一段表, 招生计划, 招生章程, 山东96个志愿, province-specific Gaokao rules, 2020高考志愿规则, historical Gaokao application rules, full Gaokao volunteer tables, parent-student guided application counseling, college/major choice after Gaokao, or wants a step-by-step application plan for a Chinese province.
 ---
 
-# Gaokao Application Beginner
+# Gaokao Zhiyuan Skill
 
 ## Core Stance
 
