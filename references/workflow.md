@@ -14,6 +14,12 @@ After the province is answered, ask the next single question in order: category/
 
 Do not ask the user for public official lines in the first intake. After province/year/category are known, look up batch lines, special control lines, section lines, and一分一段 from official provincial sources. Ask the user for these only when official data is unavailable or the user has a specific official document that cannot be reached online.
 
+If the user answers a preference question with "都行", "不知道", "你看着办", or does not want to answer, use conservative defaults for that preference and say what was defaulted. Example:
+
+```text
+你不确定是否接受中外合作，我先按“不接受高收费中外合作”处理，避免费用风险；后面你想放开我再加进去。
+```
+
 If the user is anxious or truly zero-based, first explain the process in three layers:
 
 - 规则层：本省怎么投档，志愿单位是什么，是否平行志愿。

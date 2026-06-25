@@ -11,8 +11,9 @@ Consider these categories before final ordering:
 - School fit: academic level, discipline strength, teaching quality signals, postgraduate pathways, transfer policy, major diversion policy, campus culture.
 - City and region: distance from home, climate, language/dialect, cost of living, internship density, industry cluster, future settlement possibility.
 - Career path: employment direction, civil service/teacher/medical/legal/engineering certification path, postgraduate necessity, industry cyclicality, family network relevance.
+- Career targets: high salary, stability, city opportunity, public-sector exam, state-owned enterprise, hospital, power grid, finance, internet, chip/semiconductor, teacher track, or "undecided".
 - Family finance: tuition, accommodation, living costs, travel costs, private/Sino-foreign/co-op fees, ability to support postgraduate study.
-- Student wellbeing: independence, mental pressure tolerance, health, social support, adaptation to far-away cities, campus size, schedule intensity.
+- Student fit and wellbeing: strong/weak subjects, coding tolerance, memorization tolerance, long-term study tolerance, independence, mental pressure tolerance, health, social support, adaptation to far-away cities, campus size, schedule intensity.
 - Parent preferences: distance, safety, school reputation, major stability, employment expectations, budget, relatives nearby, willingness to accept uncertainty.
 - Hard restrictions: selected subjects, physical exam restrictions, single-subject requirements, language limits, gender limits where officially stated, political review where relevant.
 - Risk tolerance: whether the family values a higher ceiling, major certainty, city certainty, low退档 risk, or low滑档 risk.
@@ -31,6 +32,8 @@ Ask concise questions when subjective priorities are unclear:
 6. 本科就业、考研、考公、出国、进体制，哪个方向更倾向？
 7. 家庭有没有行业资源、亲友照应、经济上限或健康因素需要考虑？
 ```
+
+Use one-question micro-intake by default. Do not ask this full list unless the user requests a full questionnaire.
 
 ## Preference Weighting
 

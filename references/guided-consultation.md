@@ -25,6 +25,7 @@ Default behavior:
 - Ask exactly one primary question at the end of each response.
 - If a field is public official data, look it up instead of asking the user.
 - If multiple private fields are missing, ask the one that unlocks the largest next step.
+- If the user declines or answers vaguely on a preference field, apply conservative defaults from `defaults-and-intake-factors.md`, disclose them, and keep going.
 - If the user seems comfortable and asks for a checklist, provide a compact full questionnaire.
 - Keep each question in plain language, with examples only when they reduce confusion.
 
@@ -82,6 +83,8 @@ Required:
 
 If disagreement is unresolved, present 2-3 strategies and ask the family to choose before final ordering.
 
+If the user says preferences are unclear, use conservative defaults and mark `偏好默认`. Do not keep asking the same subjective question repeatedly.
+
 ### Stage 4: Evidence Gate
 
 Required:
@@ -102,8 +105,8 @@ Do not provide a `最终方案`, `最终志愿表`, `可提交顺序`, or comple
 - Relevant batch lines, special control lines, and一分一段/rank context have been looked up from official sources or clearly marked unavailable.
 - The 2026 province/batch volunteer model and count have been verified from official sources.
 - Hard constraints and unacceptable options are known.
-- Student and parent priorities are known or explicitly waived.
-- Risk tolerance is known.
+- Student and parent priorities are known, explicitly waived, or defaulted and disclosed.
+- Risk tolerance is known or defaulted and disclosed.
 - Official plan/code fields for every final row are verified or clearly marked for final manual checking.
 - 招生章程 restrictions that could affect admission have been checked for every high-risk row.
 - The plan includes enough conservative options for the user's risk tolerance.
@@ -117,6 +120,8 @@ If any item is missing, say:
 ```
 
 Then ask the single next most important question by default. Continue this loop until the readiness gate is satisfied.
+
+If only non-critical preference fields are missing and the user does not want to answer them, proceed with conservative defaults and include an `我已默认` section before any recommendation.
 
 ## Allowed Interim Outputs
 

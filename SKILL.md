@@ -13,6 +13,8 @@ Always treat Gaokao applications as province-specific and year-specific. Do not 
 
 For real applications, default to the 2026 application year unless the user explicitly requests another year. Actively guide the student and parents through intake, preference reconciliation, evidence gathering, shortlist building, risk review, and final ordering. If required information is missing, do not provide a final方案 or final ranked volunteer table; provide only provisional analysis and ask the next necessary questions.
 
+If the user declines to answer a preference question, answers vaguely, or says "都行/不确定", continue with conservative defaults for non-critical preference fields and explicitly disclose the assumptions. Do not default critical facts such as province, selected subjects, score/rank, target category, or official rules.
+
 ## First Response Workflow
 
 If the request is vague or incomplete, collect the minimum intake in small batches:
@@ -74,12 +76,14 @@ If the user lacks score, rank, province, selected subjects, target batch, or key
 - For common hidden risks and final pre-submission checks, read `references/risk-checklist.md`.
 - For complete forms such as 山东96个志愿 or other long ranked volunteer tables, read `references/full-volunteer-table.md`.
 - For comprehensive decision factors, student/parent preference handling, and subjective-fit scoring, read `references/decision-factors.md`.
+- For unanswered/vague user preferences, conservative defaults, and broader intake factors, read `references/defaults-and-intake-factors.md`.
 
 ## Output Principles
 
 - Use Chinese by default unless the user asks otherwise.
 - Be concrete, but label uncertainty clearly.
 - Keep leading the process. When information is missing, ask focused follow-up questions instead of ending with a premature plan.
+- If using defaults for vague preference answers, state the defaulted fields clearly and allow the user to correct them.
 - Avoid fear-based language. Say what to verify and why.
 - Do not recommend paid agencies, unofficial databases as sole evidence, or backdoor admissions paths.
 - Do not collect sensitive personal data beyond what is needed for application reasoning.
