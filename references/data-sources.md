@@ -51,7 +51,7 @@ For each option:
 - Volunteer unit type: 院校专业组, 专业(类)+院校, 院校+专业, etc.
 - Major or major group name and code.
 - Target-year plan count in the user's province.
-- Prior-year minimum rank and score for the same province/category/unit, ideally 2-3 years.
+- Prior-year minimum rank and score for the same province/category/unit, ideally 2-3 years; include plan count for each year when available.
 - Subject requirements, physical exam limits, single-subject requirements, foreign language limits.
 - Tuition, campus, program type, major diversion or transfer policy.
 - Curriculum/training model source when major fit is important.
@@ -66,6 +66,14 @@ Prefer 位次 over score:
 - Watch for changed volunteer unit definitions; old school-level lines may not match new major-group lines.
 - Treat plan count changes, renamed major groups, new campuses, new programs, and major popularity shifts as uncertainty.
 - Do not overfit one year of data. If only one year exists, say so.
+
+For every final-table option, summarize the last 2-3 years of admission evidence where available:
+
+- Use the same province, same subject category/selected-subject context, same batch, and same volunteer unit whenever possible.
+- Keep yearly records separate: year, minimum score, minimum rank, plan count, and source.
+- If the official historical data uses a different unit, label the mismatch, such as `2023为院校专业组口径，不等同于2026专业+学校`.
+- If data is missing, use `未公开/暂未查到官方数据` and lower the confidence level instead of inventing or inferring a precise rank.
+- Use third-party historical databases only to discover leads; verify final rows with official provincial or college sources when possible.
 
 ## Target-Year Verification Rules
 

@@ -41,11 +41,17 @@ Use these plain-language definitions:
 
 When enough data is available, use a table like:
 
-| 梯度 | 志愿单位 | 院校/专业 | 证据 | 主要优点 | 主要风险 | 待核验 |
-|---|---|---|---|---|---|---|
-| 冲 | 院校专业组/专业+院校 | ... | 往年位次、计划数 | ... | ... | 招生章程第几条 |
+| 梯度 | 志愿单位 | 院校/专业 | 近2-3年录取情况 | 主要优点 | 主要不足 | 主要风险 | 待核验 |
+|---|---|---|---|---|---|---|---|
+| 冲 | 院校专业组/专业+院校 | ... | 2025/2024/2023最低位次、最低分、计划数 | ... | ... | ... | 招生章程第几条 |
 
 Add a short "why this order" paragraph after the table. If evidence is incomplete, label the list as "研究清单" rather than "最终填报方案".
+
+For final or near-final volunteer tables, every item must include:
+
+- At least a concise pros/cons analysis from the candidate and family perspective.
+- Last 2-3 years of admission evidence when available, especially minimum rank; include minimum score and plan count when the source provides them.
+- A note when historical data is missing, unofficial, or not the same volunteer-unit口径.
 
 ## Decision Facilitation
 

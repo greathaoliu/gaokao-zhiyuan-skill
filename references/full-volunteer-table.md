@@ -30,10 +30,30 @@ For Shandong-like `专业（类）+学校`, each row should represent one major 
 
 Use these columns for a complete table:
 
-| 序号 | 梯度 | 院校代码 | 院校名称 | 专业/专业类代码 | 专业/专业类名称 | 计划数 | 选科要求 | 往年最低位次 | 位次差 | 学费/校区 | 学生匹配 | 家长关注 | 核验状态 | 排序理由 | 风险提示 |
-|---|---|---|---|---|---|---:|---|---:|---:|---|---|---|---|---|---|
+| 序号 | 梯度 | 院校代码 | 院校名称 | 专业/专业类代码 | 专业/专业类名称 | 计划数 | 选科要求 | 近2-3年录取情况 | 位次差/趋势 | 学费/校区 | 主要优点 | 主要不足 | 学生匹配 | 家长关注 | 核验状态 | 排序理由 | 风险提示 |
+|---|---|---|---|---|---|---:|---|---|---|---|---|---|---|---|---|---|---|
 
-Keep rows concise. Put long explanations below the table rather than bloating every cell.
+Keep rows concise. Put long explanations below the table rather than bloating every cell. Each row must still include a short pros/cons judgment and prior admission evidence; do not leave these fields blank for rows presented as submit-ready.
+
+Format `近2-3年录取情况` as compact evidence, for example:
+
+```text
+2025: 最低位次 42000/最低分 612/计划 3；2024: 43800/608/计划 2；2023: 40100/615/计划 2
+```
+
+If the official source only gives one or two years, say `仅查到2025官方数据` or `2024口径不同，待核验`. Do not merge school-level, major-group-level, and `专业（类）+学校` data as if they were the same unit.
+
+For every row, analyze:
+
+- 主要优点: the strongest reasons this row belongs in the list, such as rank fit, major fit, city/campus fit, public/fee fit, parent preference, employment/postgraduate path, or lower退档 risk.
+- 主要不足: the most important tradeoffs, such as rank stretch, small plan count, hot major volatility, high tuition, distant city, uncertain transfer/diversion, weak subject fit, campus concern, or unresolved family disagreement.
+- 风险提示: concrete verification or decision risk, not generic warnings.
+
+For long tables, add a row-detail appendix after the table for rows that need more explanation:
+
+```text
+第12志愿：优点是专业方向贴合且近三年位次稳定；不足是计划数少，2026如缩招会放大波动。建议保留为冲，不建议上移到稳区。
+```
 
 ## Suggested 96-Row Structure
 

@@ -65,7 +65,7 @@ If the user lacks score, rank, province, selected subjects, target batch, or key
 7. For full volunteer tables, keep the table audit-friendly.
    - Generate the complete requested count only after the candidate data and official plan fields are available.
    - For Shandong-style ordinary regular batch tables, treat each row as one `专业（类）+学校` volunteer when official rules confirm that model for the requested year.
-   - Include ordering logic, evidence, and verification status for every row; do not hide weak or unverified rows inside a long table.
+   - Include ordering logic, the option's main advantages and disadvantages, 2-3 years of prior admission evidence where available, and verification status for every row; do not hide weak or unverified rows inside a long table.
 
 ## When To Load References
 
